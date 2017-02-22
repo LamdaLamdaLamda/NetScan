@@ -19,15 +19,4 @@
     #define DHCP_CLIENT 546
     #define DHCP_SERVER 547
     #define OPEN_VPN 1194
-
-    // Array with Ports, for Iteration over well-known ports
-     int portArray[] ={
-                        ECHO,FTP_DATA,FTP_CONTROl,
-                        SSH,TELNET,SMTP,
-                        WHOIS,DNS,FINGER,
-                        HTTP,POP3,SQL_SERVICE,
-                        IRC,LDAP,HTTPS,
-                        APPLE_QUICKTIME,DHCP_CLIENT,DHCP_SERVER,
-                        OPEN_VPN
-                        };
 #endif // WELLKNOWSPORTS__H
